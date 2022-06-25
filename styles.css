@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&display=swap');
+
+/* Globals */
+legend {
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Convergence';
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+}
+
+/* Body part */
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    background: linear-gradient(to right, rgba(255, 192, 203, .5) 40%, rgba(0, 255, 255, .5));
+}
+
+#body {
+    padding: .7% 25%;
+    background-color: rgba(75, 75, 75, 0.2)
+}
+
+/* Header Part */
+header {
+    text-align: center;
+}
+
+#title {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#description {
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* Form */
+#survey-form {
+    background: white;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .8));
+    border-radius: 20px;
+    padding: 0 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    box-shadow: 0px 0px 1px rgb(160, 160, 160);
+}
+
+
+select,
+#about input {
+    border: .5px solid rgb(61, 61, 61);
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#about label {
+    font-family: 'Convergence';
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#comments textarea {
+    border: .5px solid rgb(61, 61, 61);
+    width: 100%;
+}
+
+/* Button */
+#submit {
+    border: .5px solid rgb(61, 61, 61);
+    margin-top: 20px;
+    position: relative;
+    left: 30%;
+    text-align: center;
+    width: 40%;
+    height: 35px;
+}
